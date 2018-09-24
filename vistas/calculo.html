@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculo</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>Aquí ira tu calculo <br></p><hr>
+	<p id="calculo"></p>
+	<script type="text/javascript">
+ 	 	console.log("entre");
+		var btc= 1;
+		var tasa_usd = 6590.0001;
+		var usd = 4.10;
+		var xbtc= 0.00060708;
+		var x1;
+		var bandera= false;
+				console.log("btc:"+btc);
+				console.log("usd:"+usd);
+				console.log("tasa_usd:"+tasa_usd);
+				console.log("xbtc:"+xbtc);
+		while (bandera)
+		{
+			console.log("entro");
+			x1 = (usd*btc)/tasa_usd;
+
+			if (x1 == xbtc) {
+				console.log("entro");
+				console.log("btc:"+btc);
+				console.log("usd:"+usd);
+				console.log("tasa_usd:"+tasa_usd);
+				console.log("xbtc:"+xbtc);
+				bandera = true;
+			}else
+			{	
+				console.log("entro1 ");
+				tasa_usd = tasa_usd + 0.0001;
+				tasa_usd.toFixed(8);
+				console.log("entro2");
+				console.log("btc:"+btc);
+				console.log("usd:"+usd);
+				console.log("tasa_usd:"+tasa_usd);
+				console.log("xbtc:"+xbtc);
+			}
+
+		}
+
+
+		
+
+
+		document.writeln("necesitas que el BTC este en $"+tasa_usd+" para que los $"+usd+" invertidos valgan "+xbtc +" BTC el resultado fue: "+x1 );
+
+
+
+	</script>
+
+
+
+
+</body>
+</html>
