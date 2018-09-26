@@ -1,16 +1,8 @@
 body{
-    margin-top: 60px;
-	align-content: center;
-	
-	align-items: center;
+	margin-top: 60px;
+	/* margin-bottom: 40px; */
 	}
-footer{
-	bottom: 0;
-	width: 100%;
-	margin-bottom: 0;
-	position: absolute;
-	align-content: center;
-}
+ 
 #login{
 	margin-top: 14%;
 	width: 1278px;
@@ -22,8 +14,42 @@ footer{
 
 	margin-right: 10px;
 }
-/*#btn_registroLogin{
+#btn_registroLogin{
 
 	margin-bottom: 10px;
 	margin-top: 10px;
-}*/
+}
+/* #footer_registro{
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 0;
+	margin-left: 40%;
+	position: absolute;
+	align-content: center;
+	width: 100%;
+}  */
+#form-signin{
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+}
+#form-register{
+	width: 100%;
+	max-width: 630px;
+	padding: 15px;
+	margin: auto;
+}
+#perfil
+{
+	width: 100%;
+	max-width: 530px;
+	padding: 15px;
+	margin: auto;
+}
+#imagen{
+	align-content: center;
+	align-items: center;
+	margin-left: 30%;
+	margin-bottom: 5%;
+}
