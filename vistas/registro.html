@@ -42,28 +42,28 @@
 	</header>
 	<main>
 		<div class="container">
-			<form id="form-register">
+			<form id="form-register" action="./reg.php" method="POST">
 				<div class="form-row">
 					<div class="form-group col-6">
-						<label for="exampleNombre">Nombre</label>
-						<input type="text" class="form-control" id="exampleNombre" placeholder="Name">
+						<label for="nombreu">Nombre</label>
+						<input type="text" class="form-control" name= "nombreu" id="nombreu" placeholder="Name">
 					</div>
 
 					<div class="form-group col-6">
-						<label for="exampleApellido">Apellido</label>
-						<input type="text" class="form-control" id="exampleApellido" placeholder="Last Name">
+						<label for="apellidou">Apellido</label>
+						<input type="text" class="form-control" name="apellidou" id="apellidou" placeholder="Last Name">
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="exampleInputEmail1">Correo Electrónico</label>
-					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+					<label for="emailu">Correo Electrónico</label>
+					<input type="email" class="form-control" name="emailu" id="emailu" aria-describedby="emailHelp" placeholder="Enter email">
 					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 				</div>
 
 				<div class="form-row">
 					<div class="form-group col-6">
-						<label for="exampleInputPassword1">Contraseña</label>
-						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						<label for="passwordu">Contraseña</label>
+						<input type="password" class="form-control" name="passwordu" id="passwordu" placeholder="Password">
 					</div>
 
 					<div class="form-group col-6">
