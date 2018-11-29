@@ -15,7 +15,7 @@
     $email = $_POST['emailu'];
     $password = $_POST['passwordu'];
     $pass = md5($password);
- 
+    //inserta datos en la en la tabla usuario (SIN VALIDAR)
     $query = "INSERT INTO usuario VALUES ('$nombre','$apellido','$email','$pass')";
     //envia a la base de datos
     mysqli_query($conexion, $query) or die ("<h2>error al enviar datos a la bs</h2>"); 
